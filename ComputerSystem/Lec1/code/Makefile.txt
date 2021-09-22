@@ -1,0 +1,20 @@
+CC = gcc
+CFLAGS = -g 
+
+FILES = sq struct copyij
+
+all: $(FILES)
+
+sq: sq.c
+	$(CC) $(CFLAGS) -o sq sq.c
+
+struct: struct.c
+	$(CC) $(CFLAGS) -o struct struct.c
+
+copyij: copyij.cpp
+	g++ -g -o copyij copyij.cpp
+
+clean:
+	rm -f *~ *.o sq struct
+	rm -rf *.dSYM
+

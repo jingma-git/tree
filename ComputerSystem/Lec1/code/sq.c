@@ -10,7 +10,7 @@ int main(int argc, char *argv[]) {
     for (i = 1; i < argc; i++) {
 	int x = atoi(argv[i]);
 	int sx = sq(x);
-	printf("sq(%d) = %d\n", x, sx);
+	printf("sq(%d) = %d\n", x, sx); // x=50000, sx overflow
     }
     return 0;
 }
