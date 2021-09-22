@@ -1,0 +1,68 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "network",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "echoclient::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-echoclient-Debug-d5a7d4cbe2a5b04d0589.json",
+					"name" : "echoclient",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "echoserveri::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-echoserveri-Debug-145a04d6a0481ea719dc.json",
+					"name" : "echoserveri",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/server/MaJing/Basics/ComputerSystem/Lec21/code/build",
+		"source" : "/home/server/MaJing/Basics/ComputerSystem/Lec21/code"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

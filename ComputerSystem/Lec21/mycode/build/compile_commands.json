@@ -1,0 +1,25 @@
+[
+{
+  "directory": "/home/server/MaJing/Basics/ComputerSystem/Lec21/mycode/build",
+  "command": "/bin/gcc-7   -g   -o CMakeFiles/echoserver.dir/echoserver.c.o   -c /home/server/MaJing/Basics/ComputerSystem/Lec21/mycode/echoserver.c",
+  "file": "/home/server/MaJing/Basics/ComputerSystem/Lec21/mycode/echoserver.c"
+},
+
+{
+  "directory": "/home/server/MaJing/Basics/ComputerSystem/Lec21/mycode/build",
+  "command": "/bin/gcc-7   -g   -o CMakeFiles/echoserver.dir/csapp.c.o   -c /home/server/MaJing/Basics/ComputerSystem/Lec21/mycode/csapp.c",
+  "file": "/home/server/MaJing/Basics/ComputerSystem/Lec21/mycode/csapp.c"
+},
+
+{
+  "directory": "/home/server/MaJing/Basics/ComputerSystem/Lec21/mycode/build",
+  "command": "/bin/gcc-7   -g   -o CMakeFiles/echoclient.dir/echoclient.c.o   -c /home/server/MaJing/Basics/ComputerSystem/Lec21/mycode/echoclient.c",
+  "file": "/home/server/MaJing/Basics/ComputerSystem/Lec21/mycode/echoclient.c"
+},
+
+{
+  "directory": "/home/server/MaJing/Basics/ComputerSystem/Lec21/mycode/build",
+  "command": "/bin/gcc-7   -g   -o CMakeFiles/echoclient.dir/csapp.c.o   -c /home/server/MaJing/Basics/ComputerSystem/Lec21/mycode/csapp.c",
+  "file": "/home/server/MaJing/Basics/ComputerSystem/Lec21/mycode/csapp.c"
+}
+]

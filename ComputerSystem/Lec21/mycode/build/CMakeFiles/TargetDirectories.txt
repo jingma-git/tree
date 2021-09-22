@@ -1,0 +1,4 @@
+/home/server/MaJing/Basics/ComputerSystem/Lec21/mycode/build/CMakeFiles/rebuild_cache.dir
+/home/server/MaJing/Basics/ComputerSystem/Lec21/mycode/build/CMakeFiles/edit_cache.dir
+/home/server/MaJing/Basics/ComputerSystem/Lec21/mycode/build/CMakeFiles/echoserver.dir
+/home/server/MaJing/Basics/ComputerSystem/Lec21/mycode/build/CMakeFiles/echoclient.dir

@@ -1,0 +1,12 @@
+# ninja log v5
+0	36	1632311459374857481	CMakeFiles/echoserveri.dir/echoserveri.c.o	3c0b128bb66f6ac3
+1	37	1632311459374857481	CMakeFiles/echoclient.dir/echoclient.c.o	1ac36f6c01f341fa
+0	42	1632311459382857449	CMakeFiles/echoserveri.dir/echo.c.o	11ff20fd976086da
+1	71	1632311459410857333	CMakeFiles/echoclient.dir/csapp.c.o	d0293d8cdfe44b0a
+0	81	1632311459422857284	CMakeFiles/echoserveri.dir/csapp.c.o	60674459d969d41d
+81	99	1632311459438857218	echoserveri	6d3f718ddb5c02ea
+1	17	1632311497626699686	echoclient	90a17ec4e3e72344
+1	35	1632311558102448275	CMakeFiles/echoclient.dir/echoclient.c.o	1ac36f6c01f341fa
+35	54	1632311558122448192	echoclient	90a17ec4e3e72344
+1	34	1632311652518051589	CMakeFiles/echoclient.dir/echoclient.c.o	1ac36f6c01f341fa
+34	51	1632311652538051504	echoclient	90a17ec4e3e72344
