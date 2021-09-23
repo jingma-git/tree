@@ -2,11 +2,12 @@
 #include <signal.h>
 #include <limits.h>
 #include <wait.h>
+// https://www.geeksforgeeks.org/fork-system-call/
 
 void catch_child(int signo)
 {
     printf("Child exit!\n");               // this call may reenter printf/puts! BAD! DEADLOCK
-    while (waitpid(-1, NULL, WNOHANG) > 0) // reap all children
+    while (waitpid(-1, NULL, WNOHANG) > 0) // reap all zoombie children
         continue;
 }
 
