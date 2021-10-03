@@ -53,6 +53,8 @@ after truncting the first bit (255%128=127)
 ### Addition, Negation, Multiplication, Division
 1. Pay attention to overflow and underflow
 
+# Lec3 Floating Point
+
 
 # Lec21 Netprogramming
 1. Open Socket listenfd(server),  clientfd
