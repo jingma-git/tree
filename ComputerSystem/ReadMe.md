@@ -54,6 +54,28 @@ after truncting the first bit (255%128=127)
 1. Pay attention to overflow and underflow
 
 # Lec3 Floating Point
+1. Single Precision: 32 bits
+2. Double precision: 64 bits
+3. Single Precision: 1 signed bit + 8 exponential bits + 23 fractional bits.
+<img src="Lec3/float2binary.png" width=600/>
+
+# Lec4 Machine Program
+1. What's assembly language (asm)? It is the text format of binary opcode. eg, 0000 0011->ADD.
+2. What does assembler do? It translate the text format assembly language into binary format. This process is called assembling.
+3. Registers: 32-bits CPU, the register size is 32 bits. 64-bits CPU, the register size is 64 bits. 
+4. Heap: the memory allocated/destroyed by the user manualy. malloc, new
+5. Stack: automatically allocated when calling functions.
+6. https://www.ruanyifeng.com/blog/2018/01/assembly-language-primer.html
+   
+## Simple Addressing Mode
+1. Normal Addressing Mode: movq (%rcx), %rax, (R) Register R specifies memory address, pointer deferencing in C.
+2. Displacement: movq 8(%rbp), %rdx
+
+## Complete Memory Addressing Mode: D(Rb, Ri, S)==Mem[Reg[Rb] + S * Reg[Ri] + D]
+1. D: constant displacement 1, 2, 4 bytes
+2. Rb: base register, any of 16 integers
+3. Ri: index register, any, except for %rsp
+4. S: scale 1, 2, 4, 8
 
 
 # Lec21 Netprogramming
